@@ -1,7 +1,6 @@
 # Celebrity-Look-Alike
 
-The idea behind this project is to create a model that finds which celebrity you are the doppelg¨anger of,
-based on your unique facial features.
+The idea behind this project is to create a model capable to find, given a face image, the image containing the most similar face with respect to the input face
 
 We assumed that facial features alone might not be sufficient for accurate matching. Therefore, we explored additional traits, such as hair color, cheekbone position and gender, to
 enhance the model’s precision. Leveraging the CelebA dataset on Kaggle, which provides a rich collection of celebrity images annotated with various facial attributes, we aimed to
