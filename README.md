@@ -14,7 +14,9 @@ bounding boxes of the input faces with respect to the dataset ones, without usin
 In the next phase, we trained three distinct deep learning models to address the nuances of specific facial traits.
 
 • For hair color classification, a customized CNN was built.
+
 • To tackle gender detection, we used InceptionV3 net fine-tuned for our specific use case.
+
 • Lastly, we created a model to detect high cheekbones using the MobileNetV2 model.
 
 These deep learning models, trained on a subset of CelebA, were integrated into ourpipeline. The resulting ensemble, comprising the baseline and refined models, presented a
