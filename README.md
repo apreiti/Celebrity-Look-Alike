@@ -6,9 +6,8 @@ We assumed that facial features alone might not be sufficient for accurate match
 enhance the model’s precision. Leveraging the CelebA dataset on Kaggle, which provides a rich collection of celebrity images annotated with various facial attributes, we aimed to
 create a higher understanding of each person’s appearance.
 
-Our project unfolds in two fundamental steps. Firstly, we gathered comparison images byscraping thumbnail images from Wikipedia celebrity pages. Then, we used the face recognition
-library to effortlessly obtain facial bounding boxes, setting the groundwork for a reliable baseline that would later be enriched. The baseline consisted in computing the similarity of the
-bounding boxes of the input faces with respect to the dataset ones, without using any featuremodel to enhance the performance.
+Our project unfolds in two fundamental steps. Firstly, we gathered comparison images by scraping thumbnail images from Wikipedia celebrity pages. Then, we used the face recognition
+library to load a pre-trained CNN model that extracts the unique facial encodings for each face bounding box, setting the groundwork for a reliable baseline that would later be enriched. The baseline consisted in computing the similarity of the input faces features extracted by the pre-trained model, without using any featuremodel to enhance the performance.
 
 In the next phase, we trained three distinct deep learning models to address the nuances of specific facial traits.
 
